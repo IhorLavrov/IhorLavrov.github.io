@@ -1,0 +1,425 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color:  #a9aaac;
+}
+
+.row {
+	margin-left: 0px;
+}
+.container-fluid {
+	padding: 1em;
+	font-family: "Open Sans" sans-serif;
+}
+.navLogo {
+	padding: 0.4em;
+}
+
+#navDiv {
+	background: url('images/navBackground.png');
+
+}
+.navBar {
+	padding: 0.4em 0;
+}
+.navBar ul li a {
+	padding:  0.6em;
+	text-decoration: none;
+	color:#b0b0b0;
+}
+
+.navBar ul li a:hover {
+	color: #ff8b38;
+}
+
+.header{
+	background: url('images/headerBackground.png');
+	padding: 0.5em;
+}
+
+.headerPicture {
+	text-align: center;
+	color: #adadad;
+}
+
+.headerText{
+	padding: 1em 0;
+	font-family: "Open sans", sans-serif;
+	margin-bottom: 7em;
+}
+
+.headerText h3 {
+	color: white;
+}
+
+.headerText img{
+	padding: 1em 0;
+}
+.headerText p {
+	color: #bcbcbc;
+}
+
+#downloadButton{
+	border: solid white 1px;
+	border-radius: 0px;
+	color: white;
+	outline: none;
+	margin-top: 3em;
+}
+#downloadButton:hover {
+	background: #ff8b38;
+}
+
+.socialMedia {
+	padding:  0;
+
+}
+
+.socialMedia h4 {
+	font-weight: bold;
+}
+
+.socialMedia p{
+	color: #a9aaac;
+}
+
+.socialIcons a{
+	margin: 0 1.5em 0 0 ;
+	opacity: 0.5;
+}
+
+.socialIcons a:hover{
+	background: #ff8b38;
+	opacity: 1;
+}
+.feature1 {
+	background: #f5f5f5;
+	padding-bottom:8em;
+	font-family: "Open Sans", sans-serif;
+	box-shadow: 0 -2px 1px -2px;
+}
+
+#feature1Tabs{
+	margin-top: 5em;
+
+}
+.feature1Button{
+	display: block;
+	width: 100%;
+	height: 6em;
+	margin-bottom: 0.2em;
+	border-radius: 0px;
+	background: #333333;
+	border: none;
+	outline: none;
+	color: white;
+}
+#tab1{
+	background: #ff8b38;
+}
+
+.feature1Text {
+	margin-top: 5em;
+}
+
+.feature1Text p {
+	color: #b5b5b7;
+}
+
+.feature1Picture{
+	margin-top: 5em;
+}
+
+.feature2{
+	font-family: "Open Sans", sans-serif;
+}
+
+.feature2Picture{
+	background: #9a9a9a;
+	height: 22em;
+	margin-top: 8em;
+	text-align: center;
+	color: #a7a7a7;
+	padding: 8%;
+	box-shadow: 8px 3px 17px -2px, -8px 3px 17px -2px;
+}
+.feature2Text {
+	margin: 5em;
+}
+
+.feature2Text h6 {
+	color: black;
+	font-weight: bold;
+}
+.feature2Text p {
+	color: #d7d7d8;
+}
+
+#upload{
+	margin-top: 1em;
+	padding: 0;
+	width: 10%;
+}
+
+.feature3{
+	background: url('images/features3Background.png');
+	font-family: "Open Sans", sans-serif;
+}
+
+.feature3 h4{
+	color: #212121;
+}
+.feature3Text{
+	margin-top: 5em;
+}
+
+.feature3Text p{
+	color:#d7d7d8; 
+}
+
+.feature2Picture {
+	margin-bottom: 10em;
+}
+
+.proceesHeader {
+	align-content: center;
+	text-align: center;
+	
+	margin: 5em 0;
+}
+
+.proceesHeader h1 {
+	font-family: "Segoe Script";
+}
+.proceesHeader p{
+	font-family: "Open Sans", sans-serif;
+	color: #86878b;
+}
+
+.custom{
+	align-content: center;
+	text-align: center;
+	font-family: "Open Sans" sans-serif;
+}
+
+.custom img{
+	display: block;
+	margin: 0 auto;
+}
+
+.custom h3{
+	font-family: "Open Sans" sans-serif;
+	
+}
+
+.custom p{
+	font-family: "Open Sans" sans-serif;
+	color:#86878b; 
+}
+
+.proceesBottom{
+	margin-bottom: 10em;
+}
+
+.price{
+	background: #f5f5f5;
+	align-content: center;
+	text-align: center;
+	padding-bottom: 15em;
+}
+
+.price h1{
+	font-family: "Leelawadee", sans-serif;
+
+}
+
+.priceHeader {
+	margin-top: 7em;
+}
+
+.pricePosition1 {
+	margin-top: 5em;
+	margin-right: 3em;
+}
+
+.pricePosition2 {
+	margin-top: 2.3em;
+	margin-right: 3em;
+}
+
+.pricePosition3 {
+	margin-top: 5em;
+}
+.price1{
+	border-bottom: solid white 1px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	font-size: 18pt;
+	background: #333333;
+	color: white;
+	padding: 0.5em 0;
+}
+
+.price2{
+	background: #333333;
+	color: white;
+	font-weight: 800;
+	
+}
+
+.price2 h1{
+	font-size: 80pt;
+}
+
+.dollar {
+	font-size: 40pt;
+}
+
+.price2 p {
+	font-weight: 200;
+	color:  #7a7a7a;
+}
+
+.price3 {
+	background: #ff8b38;
+	height: 0.3em;
+}
+.price3Central {
+		background: #ff8b38;
+		color: white;
+		font-weight: bold;
+		height: 3em;
+		padding: 0.8em 0;
+}
+
+.price4 {
+	color: #86878b;
+	border-bottom: #f5f5f5 solid 1px;
+	font-family: "Open Sans", sans-serif;
+	background: white;
+	padding: 0.8em;
+	font-weight: 600;
+}
+
+.space{
+	min-height: 1px;
+}
+
+.stylish{
+	background: #9a9a9a;
+	padding-bottom: 5em;
+}
+.stylishMain{
+	padding-top: 5em;
+	text-align: center;
+}
+
+.stylishMain h1{
+	color: white;
+	padding-bottom: 0.2em;
+}
+
+.stylishMain p{
+	padding-top: 2em;
+	color: #dadada;
+}
+.Download{
+	background: #9a9a9a;
+}
+
+#pict{
+	padding-top: 2em;
+}
+
+.contact{
+	padding: 5em 0;
+}
+
+.contactHeader {
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+.contactHeader p{ 
+	color: #8f9094;
+ }
+
+.contactInput input {
+	border: none;
+	border-bottom: solid 1px #d6d6d6;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.4em;
+	outline: none;
+	width: 100%;
+
+}
+.inputLeft {
+	padding-top: 2em;
+}
+.inputName {
+	padding-bottom: 2em;
+}
+
+.inputEmail {
+	padding-bottom: 2em;
+}
+
+.textAr {
+	padding-top: 1.5em;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+#textarea {
+	width: 100%;
+	border: none;
+	outline: none;
+}
+
+.sendMessage {
+	padding-top: 2em;
+	text-align: center;
+}
+
+.sendMessage button {
+	background: #ff9b51;
+	color: white;
+	text-decoration: none;
+}
+
+.sendMessage button:hover {
+	background: #ff8b38;
+	color: white;
+	text-decoration: none;
+}
+
+footer {
+	background: #000000;
+	color: #878787;
+	text-align: center;
+
+}
+
+.icons {
+	padding: 1em;
+}
+
+.icons a{
+	opacity: 0.5;
+}
+
+.icons a:hover {
+	opacity: 1;
+}
+
+.copyrights{
+
+}
+
+.copyrights  p a{
+	text-decoration: none;
+	color: ;
+}
